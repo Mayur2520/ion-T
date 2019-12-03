@@ -1,0 +1,7 @@
+{
+  "name": "IonicT",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
