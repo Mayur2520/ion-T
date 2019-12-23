@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-2";
+  src:url("fonts/untitled-font-2.eot");
+  src:url("fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-2.woff") format("woff"),
+    url("fonts/untitled-font-2.ttf") format("truetype"),
+    url("fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-2" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-threesa-logo:before {
+  content: "\62";
+}
+.icon-birthday:before {
+  content: "\6d";
+}
+.icon-calendar:before {
+  content: "\6e";
+}
+.icon-call:before {
+  content: "\6f";
+}
+.icon-chat:before {
+  content: "\70";
+}
+.icon-speech-bubble:before {
+  content: "\71";
+}
+.icon-salary:before {
+  content: "\72";
+}
+.icon-rupee:before {
+  content: "\73";
+}
+.icon-review:before {
+  content: "\74";
+}
+.icon-positive-vote:before {
+  content: "\76";
+}
+.icon-payment:before {
+  content: "\77";
+}
+.icon-negative-vote:before {
+  content: "\78";
+}
+.icon-home:before {
+  content: "\79";
+}
+.icon-ethernet:before {
+  content: "\7a";
+}
+.icon-enquiry:before {
+  content: "\41";
+}
+.icon-complaint:before {
+  content: "\42";
+}
+.icon-leaves:before {
+  content: "\43";
+}
+.icon-user:before {
+  content: "\44";
+}
+.icon-customers:before {
+  content: "\45";
+}
+.icon-whatsapp:before {
+  content: "\46";
+}
+.icon-bell:before {
+  content: "\61";
+}
+.icon-poster:before {
+  content: "\63";
+}
